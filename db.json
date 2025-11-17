@@ -1,0 +1,16 @@
+{
+  "profiles": [
+    { "id": 1, "name": "Alice" },
+    { "id": 2, "name": "Bob" }
+  ],
+  "posts": [
+    { "id": 1, "profileId": 1, "title": "Alice's first post" },
+    { "id": 2, "profileId": 1, "title": "Alice's second post" },
+    { "id": 3, "profileId": 2, "title": "Bob's first post" }
+  ],
+  "comments": [
+    { "id": 1, "postId": 1, "body": "Nice post!" },
+    { "id": 2, "postId": 1, "body": "Thanks for sharing" },
+    { "id": 3, "postId": 3, "body": "Interesting thoughts" }
+  ]
+}
