@@ -1,16 +1,19 @@
 {
-  "operation": "SUBTRACT",
-  "inputs": [
-    {
-      "operation": "CONSTANT_NUMBER",
-      "value": 20
-    },
-    {
-      "operation": "ADD",
-      "inputs": [
-        { "operation": "CONSTANT_NUMBER", "value": 3 },
-        { "operation": "CONSTANT_NUMBER", "value": 4 }
-      ]
-    }
-  ]
+  "operation": {
+    "operation": "SUBTRACT",
+    "inputs": [
+      {
+        "operation": "CONSTANT_NUMBER",
+        "value": 20
+      },
+      {
+        "operation": "ADD",
+        "inputs": [
+          { "operation": "CONSTANT_NUMBER", "value": 3 },
+          { "operation": "CONSTANT_NUMBER", "value": 4 }
+        ]
+      }
+    ]
+  }
 }
+
