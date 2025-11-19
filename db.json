@@ -1,52 +1,18 @@
 {
-  "calls": [
-    {
-      "customerId": 1,
-      "callId": "c1",
-      "startTimestamp": 1707312000000,
-      "endTimestamp": 1707315600000
-    },
-    {
-      "customerId": 1,
-      "callId": "c2",
-      "startTimestamp": 1707313800000,
-      "endTimestamp": 1707317400000
-    },
-    {
-      "customerId": 1,
-      "callId": "c3",
-      "startTimestamp": 1707315000000,
-      "endTimestamp": 1707318600000
-    },
-    {
-      "customerId": 2,
-      "callId": "c4",
-      "startTimestamp": 1707398400000,
-      "endTimestamp": 1707484800000
-    },
-    {
-      "customerId": 2,
-      "callId": "c5",
-      "startTimestamp": 1707402000000,
-      "endTimestamp": 1707405600000
-    },
-    {
-      "customerId": 3,
-      "callId": "c6",
-      "startTimestamp": 1707571200000,
-      "endTimestamp": 1707657600000
-    },
-    {
-      "customerId": 3,
-      "callId": "c7",
-      "startTimestamp": 1707574800000,
-      "endTimestamp": 1707578400000
-    },
-    {
-      "customerId": 3,
-      "callId": "c8",
-      "startTimestamp": 1707582000000,
-      "endTimestamp": 1707585600000
-    }
-  ]
+  "currentAssociations": [
+    { "companyId": 1, "contactId": 101, "role": "Manager" },
+    { "companyId": 1, "contactId": 102, "role": "Engineer" },
+    { "companyId": 1, "contactId": 103, "role": "Engineer" },
+    { "companyId": 2, "contactId": 201, "role": "Analyst" }
+  ],
+  "newAssociations": [
+    { "companyId": 1, "contactId": 104, "role": "Engineer" },
+    { "companyId": 1, "contactId": 105, "role": "Engineer" },
+    { "companyId": 1, "contactId": 106, "role": "Engineer" },
+    { "companyId": 1, "contactId": 107, "role": "Engineer" },
+    { "companyId": 2, "contactId": 201, "role": "Manager" },
+    { "companyId": 2, "contactId": 201, "role": "Director" }
+  ],
+  "validAssociations": [],
+  "invalidAssociations": []
 }
