@@ -1,18 +1,16 @@
 {
-  "currentAssociations": [
-    { "companyId": 1, "contactId": 101, "role": "Manager" },
-    { "companyId": 1, "contactId": 102, "role": "Engineer" },
-    { "companyId": 1, "contactId": 103, "role": "Engineer" },
-    { "companyId": 2, "contactId": 201, "role": "Analyst" }
-  ],
-  "newAssociations": [
-    { "companyId": 1, "contactId": 104, "role": "Engineer" },
-    { "companyId": 1, "contactId": 105, "role": "Engineer" },
-    { "companyId": 1, "contactId": 106, "role": "Engineer" },
-    { "companyId": 1, "contactId": 107, "role": "Engineer" },
-    { "companyId": 2, "contactId": 201, "role": "Manager" },
-    { "companyId": 2, "contactId": 201, "role": "Director" }
-  ],
-  "validAssociations": [],
-  "invalidAssociations": []
+  "operation": "SUBTRACT",
+  "inputs": [
+    {
+      "operation": "CONSTANT_NUMBER",
+      "value": 20
+    },
+    {
+      "operation": "ADD",
+      "inputs": [
+        { "operation": "CONSTANT_NUMBER", "value": 3 },
+        { "operation": "CONSTANT_NUMBER", "value": 4 }
+      ]
+    }
+  ]
 }
