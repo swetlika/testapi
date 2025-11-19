@@ -2,27 +2,51 @@
   "calls": [
     {
       "customerId": 1,
-      "callId": "a111",
-      "startTimestamp": 1707314726000,
-      "endTimestamp": 1707317769000
-    },
-    {
-      "customerId": 2,
-      "callId": "b221",
-      "startTimestamp": 1707316000000,
-      "endTimestamp": 1707319000000
+      "callId": "c1",
+      "startTimestamp": 1707312000000,
+      "endTimestamp": 1707315600000
     },
     {
       "customerId": 1,
-      "callId": "a112",
+      "callId": "c2",
+      "startTimestamp": 1707313800000,
+      "endTimestamp": 1707317400000
+    },
+    {
+      "customerId": 1,
+      "callId": "c3",
       "startTimestamp": 1707315000000,
-      "endTimestamp": 1707318000000
+      "endTimestamp": 1707318600000
+    },
+    {
+      "customerId": 2,
+      "callId": "c4",
+      "startTimestamp": 1707398400000,
+      "endTimestamp": 1707484800000
+    },
+    {
+      "customerId": 2,
+      "callId": "c5",
+      "startTimestamp": 1707402000000,
+      "endTimestamp": 1707405600000
     },
     {
       "customerId": 3,
-      "callId": "c331",
-      "startTimestamp": 1707320000000,
-      "endTimestamp": 1707321000000
+      "callId": "c6",
+      "startTimestamp": 1707571200000,
+      "endTimestamp": 1707657600000
+    },
+    {
+      "customerId": 3,
+      "callId": "c7",
+      "startTimestamp": 1707574800000,
+      "endTimestamp": 1707578400000
+    },
+    {
+      "customerId": 3,
+      "callId": "c8",
+      "startTimestamp": 1707582000000,
+      "endTimestamp": 1707585600000
     }
   ]
 }
