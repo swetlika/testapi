@@ -1,16 +1,28 @@
 {
-  "profiles": [
-    { "id": 1, "name": "Alice" },
-    { "id": 2, "name": "Bob" }
-  ],
-  "posts": [
-    { "id": 1, "profileId": 1, "title": "Alice's first post" },
-    { "id": 2, "profileId": 1, "title": "Alice's second post" },
-    { "id": 3, "profileId": 2, "title": "Bob's first post" }
-  ],
-  "comments": [
-    { "id": 1, "postId": 1, "body": "Nice post!" },
-    { "id": 2, "postId": 1, "body": "Thanks for sharing" },
-    { "id": 3, "postId": 3, "body": "Interesting thoughts" }
+  "calls": [
+    {
+      "customerId": 1,
+      "callId": "a111",
+      "startTimestamp": 1707314726000,
+      "endTimestamp": 1707317769000
+    },
+    {
+      "customerId": 2,
+      "callId": "b221",
+      "startTimestamp": 1707316000000,
+      "endTimestamp": 1707319000000
+    },
+    {
+      "customerId": 1,
+      "callId": "a112",
+      "startTimestamp": 1707315000000,
+      "endTimestamp": 1707318000000
+    },
+    {
+      "customerId": 3,
+      "callId": "c331",
+      "startTimestamp": 1707320000000,
+      "endTimestamp": 1707321000000
+    }
   ]
 }
